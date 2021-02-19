@@ -1,6 +1,6 @@
 # Board
 
-## with HTML, CSS, JS, Bootstrap, ejs, NODE.js, MongoDB
+## with HTML, CSS, Javascript, Bootstrap, ejs, Node.js, MongoDB
 
 ### 1차 기능
 
