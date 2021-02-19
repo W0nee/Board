@@ -24,10 +24,9 @@ passport.use(
     },
     function (req, username, password, done) {
       User.findOne({ username: username })
-        .select({ password })
+        .select({ password: 1 })
         .exec(function (err, user) {
           if (err) return done(err);
-
           if (user && user.authenticate(password)) {
             return done(null, user);
           } else {

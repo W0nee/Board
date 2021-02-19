@@ -36,7 +36,7 @@ router.post(
       next();
     } else {
       req.flash("errors", errors);
-      req.redirect("/login");
+      res.redirect("/login");
     }
   },
   passport.authenticate("local-login", {
